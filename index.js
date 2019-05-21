@@ -24,8 +24,8 @@ class Formatter {
       } else {
         newSentence.push(sentenceArray[i])
       }
-    let resultArray = newSentence.join(' ')
-    return resultArray[0].toUpperCase() + resultArray.substr(1)
+    let result = newSentence.join(' ')
+    return result[0].toUpperCase() + result.substr(1)
   }
 
 }
